@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="debugging.test"
+    errors="2" failures="0" hostname="" id="" package="debugging.test" skipped="0"
+    tests="1" time="3.793" timestamp="">
+  
+    <testcase name="Should find results when searching for &#39;applitools&#39;" classname="debugging.test" time="3.793" assertions="1">
+<system-out>[[ATTACHMENT|C:\dasa\demo\screenshots\debugging.test\Should-find-results-when-searching-for-applitools_FAILED_Dec-01-2020-133235-GMT-0300.png]]</system-out>
+    
+    <error message="An error occurred while running .click() command on &lt;Element [name=@btnSearch]&gt;:   (Session info: chrome=86.0.4240.198),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.17763 x86_64); element click intercepted: Element &lt;input type=&#34;submit&#34; id=&#34;searchsubmit&#34; value=&#34;Search&#34;&gt; is not clickable at point (225, 308). Other element would receive the click: &lt;ol class=&#34;jetpack-instant-search__search-results-list is-format-minimal&#34;&gt;...&lt;/ol&gt;" type="error"><![CDATA[
+    TimeoutError: An error occurred while running .click() command on &lt;Element [name=@btnSearch]&gt;:   (Session info: chrome=86.0.4240.198),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.17763 x86_64); element click intercepted: Element &lt;input type=&#34;submit&#34; id=&#34;searchsubmit&#34; value=&#34;Search&#34;&gt; is not clickable at point (225, 308). Other element would receive the click: &lt;ol class=&#34;jetpack-instant-search__search-results-list is-format-minimal&#34;&gt;...&lt;/ol&gt;
+    at PeriodicPromise.getError (C:\dasa\demo\node_modules\nightwatch\lib\utils\periodic-promise.js:161:12)
+    at PeriodicPromise.perform (C:\dasa\demo\node_modules\nightwatch\lib\utils\periodic-promise.js:111:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async PeriodicPromise.runAction (C:\dasa\demo\node_modules\nightwatch\lib\utils\periodic-promise.js:48:22)
+    at async PeriodicPromise.runAction (C:\dasa\demo\node_modules\nightwatch\lib\utils\periodic-promise.js:51:16)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Element &#34;postTitle&#34; was not found in &#34;SearchPage&#34;. Available elements: post
+       at Object.Should find results when searching for &#39;applitools&#39; (C:\dasa\demo\tests\debugging.test.js:12:14)
+  TimeoutError: An error occurred while running .click() command on &lt;Element [name=@btnSearch]&gt;:   (Session info: chrome=86.0.4240.198),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.17763 x86_64); element click intercepted: Element &lt;input type=&#34;submit&#34; id=&#34;searchsubmit&#34; value=&#34;Search&#34;&gt; is not clickable at point (225, 308). Other element would receive the click: &lt;ol class=&#34;jetpack-instant-search__search-results-list is-format-minimal&#34;&gt;...&lt;/ol&gt;
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element click intercepted: Element &lt;input type=\&#34;submit\&#34; id=\&#34;searchsubmit\&#34; value=\&#34;Search\&#34;&gt; is not clickable at point (225, 308). Other element would receive the click: &lt;ol class=\&#34;jetpack-instant-search__search-results-list is-format-minimal\&#34;&gt;...&lt;/ol&gt;&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.198)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.17763 x86_64)&#34;]},&#34;errorStatus&#34;:64,&#34;error&#34;:&#34;An unknown error has occurred – element click intercepted: Element &lt;input type=\&#34;submit\&#34; id=\&#34;searchsubmit\&#34; value=\&#34;Search\&#34;...&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

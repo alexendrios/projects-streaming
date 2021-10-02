@@ -1,0 +1,43 @@
+{
+ 
+  "projectId": "71gefa",
+  "execTimeout": 100000,
+  "userAgent": null,
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
+  "defaultCommandTimeout": 12000,
+  "pageLoadTimeout": 900000,
+  "viewportWidth": 1200,
+  "requestTimeout": 120000,
+  "viewportHeight": 860,
+  "responseTimeout": 600000,
+  "chromeWebSecurity": false,
+  "videoCompression": 15,
+  "db": {
+    "user": "ums",
+    "password": "nyjlsGQgHYNJNmmDJx4W",
+    "host": "user-management-system.crv7lcp2xspj.us-east-1.rds.amazonaws.com",
+    "port": "5432",
+    "database": "user_management_system_staging"
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "Relatório-Testes-LiviaProTelemedicina",
+    "reportName": "Relatório",
+    "reportTitle": "Relatório de Testes - Livia Pro Telemedicina",
+    "reportPageTitle": "Título da Página",
+    "takePassedScreenshot": false,
+    "clearOldScreenshots": false,
+    "shortScrFileNames": false,
+    "inline": true,
+    "charts": true,
+    "autoOpen": true,
+    "jsonReport": true,
+    "multiReport": true,
+    "timestamp": "dd-mm-yyyy_hh-mm-ss",
+    "capture": "runner"
+  }
+}

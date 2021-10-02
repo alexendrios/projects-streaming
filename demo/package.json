@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "testando a ferramenta",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [
+    "Automação",
+    "JavaScript",
+    "Nightwatch.js"
+  ],
+  "author": "Alexandre Santos",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "80.0.0",
+    "nightwatch": "^1.5.1"
+  }
+}

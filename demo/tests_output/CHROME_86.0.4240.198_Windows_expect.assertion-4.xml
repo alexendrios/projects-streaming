@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="expect.assertion-4"
+    errors="0" failures="1" hostname="" id="" package="expect.assertion-4" skipped="0"
+    tests="2" time="7.986" timestamp="">
+  
+    <testcase name="Assert Library demo tests" classname="expect.assertion-4" time="2.725" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should assert form field value" classname="expect.assertion-4" time="5.261" assertions="1">  <failure message="Testing if value of element &lt;#et_pb_contact_name_0&gt; equals &#39;Dimitri&#39; in 5000ms - expected &#34;equals &#39;Dimitri&#39;&#34; but got: &#34;Dimitri Harding&#34; (5163ms)">    at Object.Should assert form field value (C:\dasa\demo\tests\expect.assertion-4.js:11:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

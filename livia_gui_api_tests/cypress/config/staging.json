@@ -1,0 +1,32 @@
+{
+    "env": {
+        "url": "https://staging-plataforma-saude.nexadigital.com.br",
+        "url_saude_api": "https://www.staging.liviasaude.com.br",
+        "url_pro_api": "https://staging-pes-telemedicine.nexadigital.com.br",
+        "url_pes_tel_api": "https://staging-pes-telemedicine.nexadigital.com.br",
+        "cpf_med": "53229175000",
+        "cpf_med_qa": "71426408048",
+        "cpf_pac_saude": "82771727021",
+        "cpf_op": "86449787058",
+        "cpf_op_qa": "96682782080",
+        "cpf_altera_senha": "49583936090",
+        "cpf_sem_cad": "28013327819",
+        "senha": "123456",
+        "senha_incorreta": "12345",
+        "nome_logado_med": "Usuario Medico",
+        "nome_logado_med_qa": "Médico QA",
+        "nome_logado_op": "Usuário Operador",
+        "nome_logado_op_qa": "Operador QA",
+        "email": "livia_pro_prontuario@hotmail.com",
+        "email_medico": "livia_pro_prontuario_medico@hotmail.com",
+        "email_forgot_password": "livia_pro_prontuario_esqueci_senha@hotmail.com",
+        "senha_email":"qatest@123",
+        "db": {
+            "user": "ums",
+            "password": "nyjlsGQgHYNJNmmDJx4W",
+            "host": "user-management-system.crv7lcp2xspj.us-east-1.rds.amazonaws.com",
+            "port": "5432",
+            "database": "user_management_system_staging"
+          }
+    }
+}

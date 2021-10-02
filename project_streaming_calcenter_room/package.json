@@ -1,0 +1,31 @@
+{
+  "name": "Covid19-Virtual-Appointment",
+  "version": "1.0.0",
+  "description": "Project to assess the quality of stringing in a 1:1 service",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "nightwatch --reporter html-reporter.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "Nightwatch",
+    "Test",
+    "Automation",
+    "streaming",
+    "Web"
+  ],
+  "author": "Alexandre Santos",
+  "email": "alex.endrios@hotmail.com",
+  "phone": "+55-61-992861490",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^91.0.4472.101",
+    "nightwatch": "^1.5.1"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="0">
+
+  <testsuite name="globalModule"
+    errors="2" failures="0" hostname="" id="" package="globalModule" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        TypeError: done is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.before (C:\dasa\demo\globals\globalModule.js:5:9)
+       at new Promise (&lt;anonymous&gt;)
+  TypeError: done is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.after (C:\dasa\demo\globals\globalModule.js:11:8)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+    <error message="done is not a function"><![CDATA[
+      TypeError: done is not a function
+    at Object.after (C:\dasa\demo\globals\globalModule.js:11:8)
+    at Context.callAsync (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\context.js:395:20)
+    at Context.invokeMethod (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\context.js:346:21)
+    at C:\dasa\demo\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:79:24
+    at new Promise (&lt;anonymous&gt;)
+    at AfterAll.run (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:54:14)
+    at Runnable.__runFn (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:186:35)
+    at Runnable.run (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="reporter" classname="globalModule">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

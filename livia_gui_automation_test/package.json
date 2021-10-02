@@ -1,0 +1,22 @@
+{
+  "name": "livia_gui_automation_test",
+  "version": "1.0.0",
+  "description": "Script Streaming",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [
+    "Nightwatch.js",
+    "Mocha",
+    "Selenium",
+    "JavaScript",
+    "Streaming"
+  ],
+  "author": "Alexandre Santos",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^87.0.4",
+    "nightwatch": "^1.5.1"
+  }
+}

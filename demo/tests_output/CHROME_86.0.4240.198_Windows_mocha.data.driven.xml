@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="mocha.data.driven"
+    errors="0" failures="0" hostname="" id="" package="mocha.data.driven" skipped="0"
+    tests="3" time="5.610" timestamp="">
+  
+    <testcase name="Should verify that the name error message is shown" classname="mocha.data.driven" time="3.378" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should verify that the message error is shown" classname="mocha.data.driven" time="1.187" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should verify that the message and name errors are shown" classname="mocha.data.driven" time="1.045" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

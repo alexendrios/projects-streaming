@@ -1,0 +1,37 @@
+Error while running .navigateTo) protocol action: An unknown error has occurred.
+https:/www.staging.liviasaude.com.br/vendors~main-bdd68c069090be26c58d.js 1:938443 Uncaught TypeError: Cannot read property 'addEventListener' of null
+Error while running .elementSubmit) protocol action: stale element reference: element is not attached to the page document
+https:/www.staging.liviasaude.com.br/assetslv2/img/img-consultas-mobile.jpg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Error while running .clickElement) protocol action: stale element reference: element is not attached to the page document
+https:/www.staging.liviasaude.com.br/assetslv2/img/marca-szd.png - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Timed out while waiting for element <#header > div.header-container > div.header-topo > a> to be present for 500000 milliseconds. - expected "visible" but got: "not found" (500170ms), waitForElementVisible ('#header > div.header-container > div.header-topo > a', 500000) (Line:196)
+https:/www.staging.liviasaude.com.br/assetslv2/js/scripts.min.js - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Timed out while waiting for element <#header > div.header-container > div.header-topo > a> to be present for 500000 milliseconds. - expected "visible" but got: "not found" (500166ms), waitForElementVisible ('#header > div.header-container > div.header-topo > a', 500000) (Line:196)
+https:/www.staging.liviasaude.com.br/vendors~main-bdd68c069090be26c58d.js 1:938443 Uncaught TypeError: Cannot read property 'addEventListener' of null
+Error while running .clickElement) protocol action: stale element reference: element is not attached to the page document
+Error while running .navigateTo) protocol action: An unknown error has occurred.
+https:/www.staging.liviasaude.com.br/vendors~main-bdd68c069090be26c58d.js 1:944575 Se
+https:/www.staging.liviasaude.com.br/assetslv2/img/marca-alta.svg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+https:/www.staging.liviasaude.com.br/assetslv2/img/header-desktop.jpg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Error while running .elementSubmit) protocol action: stale element reference: element is not attached to the page document
+https:/www.staging.liviasaude.com.br/assetslv2/img/seta-next.svg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+https:/www.staging.liviasaude.com.br/assetslv2/img/img-consultas-desktop.jpg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+https:/www.staging.liviasaude.com.br/assetslv2/img/seta-link.svg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+https:/www.staging.liviasaude.com.br/vendors~main-bdd68c069090be26c58d.js 1:938443 Uncaught TypeError: Cannot read property 'addEventListener' of null
+https:/www.staging.liviasaude.com.br/vendors~main-bdd68c069090be26c58d.js 1:944575 Se
+https:/www.staging.liviasaude.com.br/assetslv2/img/logo-livia-azul.svg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Error while running .clickElement) protocol action: stale element reference: element is not attached to the page document
+https:/www.staging.liviasaude.com.br/assetslv2/img/marca-delboni.svg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Timed out while waiting for element <a.video-attendance-card__link> to be present for 500000 milliseconds. - expected "visible" but got: "not found" (500097ms), waitForElementVisible ('a.video-attendance-card__link', 500000) (Line:53)
+https:/www.staging.liviasaude.com.br/assetslv2/js/jquery.min.js - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Timed out while waiting for element <div.card-in-call__body div.card-in-call__content div.card-in-call__timer> to be present for 500000 milliseconds. - expected "visible" but got: "not found" (500255ms), waitForElementVisible ('div.card-in-call__body div.card-in-call__content div.card-in-call__timer', 500000) (Line:214)
+https:/www.staging.liviasaude.com.br/assetslv2/img/img-consultas-mobile-maior.jpg - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+Error while running .navigateTo) protocol action: An unknown error has occurred.
+https:/www.staging.liviasaude.com.br/vendors~main-bdd68c069090be26c58d.js 1:938443 Uncaught TypeError: Cannot read property 'addEven
+Error while running .elementSubmit) protocol action: stale element reference: element is not attached to the page document.
+https:/www.staging.liviasaude.com.br/assetslv2/img/img-consultas-desktop.jpg - Failed to load resource: the server responded with a status of 5
+Test timeout after 1020s
+https:/www.staging.liviasaude.com.br/assetslv2/img/seta-link.svg - Failed to load resource: the server responded with a status of 502 (Bad Gatew
+https:/www.staging.liviasaude.com.br/assetslv2/img/marca-delboni.svg - Failed to load resource: the server responded with a status of 502 (Bad
+https:/www.staging.liviasaude.com.br/assetslv2/img/seta-next.svg - Failed to load resource: the server responded with a status of 502 (Bad Gate
+Timed out while waiting for element <#header > div.header-container > div.header-topo > a> to be present for 500000 milliseconds. - expected "v

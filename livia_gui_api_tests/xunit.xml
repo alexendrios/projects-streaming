@@ -1,0 +1,9 @@
+<testsuite name="Mocha Tests" tests="7" failures="0" errors="0" skipped="0" timestamp="Wed, 04 Nov 2020 12:23:00 GMT" time="25.478">
+<testcase classname="Login" name="M&#xE9;dico sucesso (COA &#x26; Meu Consult&#xF3;rio)" time="8.976"/>
+<testcase classname="Login" name="Operador sucesso" time="3.864"/>
+<testcase classname="Login" name="Realizar login com sucesso e sair" time="2.218"/>
+<testcase classname="Login" name="Cpf n&#xE3;o cadastrado" time="1.416"/>
+<testcase classname="Login" name="Cpf n&#xE3;o preenchido" time="1.48"/>
+<testcase classname="Login" name="Senha incorreta" time="1.795"/>
+<testcase classname="Login" name="Senha n&#xE3;o preenchida" time="1.447"/>
+</testsuite>

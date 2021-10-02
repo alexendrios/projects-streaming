@@ -1,0 +1,940 @@
+{
+	"passed": 38,
+	"failed": 0,
+	"errors": 0,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 38,
+	"errmessages": [],
+	"modules": {
+		"001_agendamentoPaciente.test": {
+			"reportPrefix": "CHROME_89.0.4389.90_Windows_",
+			"assertionsCount": 38,
+			"lastError": null,
+			"skipped": [],
+			"time": "52.43",
+			"completed": {
+				"Dado realizado o agendamento da Consulta pelo paciente através da plataforma": {
+					"time": "16.74",
+					"assertions": [
+						{
+							"message": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+							"failure": false
+						}
+					],
+					"passed": 24,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 24,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Dado realizado o agendamento da Consulta pelo paciente através da plataforma": {
+							"time": "16.74",
+							"assertions": [
+								{
+									"message": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+									"failure": false
+								}
+							],
+							"tests": 24,
+							"passed": 24,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 16738
+						}
+					},
+					"timeMs": 16738
+				},
+				"Quando usuário identificado como médico loga na aplicação e realiza o atendimento do paciente": {
+					"time": "10.87",
+					"assertions": [
+						{
+							"message": "Element <input[name=\"federalTaxId\"]> was visible after 26 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 26 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <input[name=\"password\"]> was visible after 30 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <input[name=\"password\"]> was visible after 30 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.jss15 > button> was visible after 24 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.jss15 > button> was visible after 24 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <div.MuiCardActions-root.jss49.MuiCardActions-spacing > button > span.MuiButton-label> was visible after 2636 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <div.MuiCardActions-root.jss49.MuiCardActions-spacing > button > span.MuiButton-label> was visible after 2636 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-AxirZ bJCmFu\"]> was visible after 129 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-AxirZ bJCmFu\"]> was visible after 129 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 2722 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 2722 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge\"]> was visible after 57 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge\"]> was visible after 57 milliseconds.",
+							"failure": false
+						}
+					],
+					"passed": 7,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 7,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Dado realizado o agendamento da Consulta pelo paciente através da plataforma": {
+							"time": "16.74",
+							"assertions": [
+								{
+									"message": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+									"failure": false
+								}
+							],
+							"tests": 24,
+							"passed": 24,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 16738
+						},
+						"Quando usuário identificado como médico loga na aplicação e realiza o atendimento do paciente": {
+							"time": "10.87",
+							"assertions": [
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 26 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 26 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"password\"]> was visible after 30 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"password\"]> was visible after 30 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.jss15 > button> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.jss15 > button> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.MuiCardActions-root.jss49.MuiCardActions-spacing > button > span.MuiButton-label> was visible after 2636 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.MuiCardActions-root.jss49.MuiCardActions-spacing > button > span.MuiButton-label> was visible after 2636 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-AxirZ bJCmFu\"]> was visible after 129 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-AxirZ bJCmFu\"]> was visible after 129 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 2722 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 2722 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge\"]> was visible after 57 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge\"]> was visible after 57 milliseconds.",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 10866
+						}
+					},
+					"timeMs": 10866
+				},
+				"Então estabelecido a comunicação paciente médico será realizada a consulta": {
+					"time": "24.82",
+					"assertions": [
+						{
+							"message": "Element <textarea[name=\"complaint\"]> was visible after 28 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <textarea[name=\"complaint\"]> was visible after 28 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <textarea[name=\"conduct\"]> was visible after 27 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <textarea[name=\"conduct\"]> was visible after 27 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <textarea[name=\"observations\"]> was visible after 33 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <textarea[name=\"observations\"]> was visible after 33 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button[class*=\"MuiButtonBase-root MuiIconButton-root\"]:nth-child(2)> was visible after 40 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiIconButton-root\"]:nth-child(2)> was visible after 40 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\"]> was visible after 26 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\"]> was visible after 26 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 24 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 24 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <.MuiButton-containedSizeLarge.MuiButton-sizeLarge> was visible after 90 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.MuiButton-containedSizeLarge.MuiButton-sizeLarge> was visible after 90 milliseconds.",
+							"failure": false
+						}
+					],
+					"passed": 7,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 7,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Dado realizado o agendamento da Consulta pelo paciente através da plataforma": {
+							"time": "16.74",
+							"assertions": [
+								{
+									"message": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#header > div.header-container > div.header-topo > a> was visible after 31 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 545 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.login--button__wrapper > button> was visible after 58 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"password\"]> was visible after 559 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.default-button__loading> was visible after 30 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <a.video-attendance-card__link> was visible after 2120 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input.default-checkbox__input> was visible after 56 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.agreement-modal--content__footer > button> was visible after 37 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"name\"]> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"date\"]> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div[class=textfield-wrapper] > div > input> was visible after 29 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.visible.menu.transition > div> was visible after 23 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 35 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"phone\"]> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"email\"]> was visible after 22 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"cep\"]> was visible after 23 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 18 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"Diarréia / vômito\"]> was visible after 550 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 20 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-form__footer > button> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div[class='default-button__loading']> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.telemedicine-modal__content--button-wrapper  button  div  div> was visible after 1608 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button.index__button___ixw9L.index__primary___PICz2.index__normal___3yKr8.index__normalPadding___2-3rW > div > div> was visible after 29 milliseconds.",
+									"failure": false
+								}
+							],
+							"tests": 24,
+							"passed": 24,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 16738
+						},
+						"Quando usuário identificado como médico loga na aplicação e realiza o atendimento do paciente": {
+							"time": "10.87",
+							"assertions": [
+								{
+									"message": "Element <input[name=\"federalTaxId\"]> was visible after 26 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"federalTaxId\"]> was visible after 26 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <input[name=\"password\"]> was visible after 30 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <input[name=\"password\"]> was visible after 30 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.jss15 > button> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.jss15 > button> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <div.MuiCardActions-root.jss49.MuiCardActions-spacing > button > span.MuiButton-label> was visible after 2636 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <div.MuiCardActions-root.jss49.MuiCardActions-spacing > button > span.MuiButton-label> was visible after 2636 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-AxirZ bJCmFu\"]> was visible after 129 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-text sc-AxirZ bJCmFu\"]> was visible after 129 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 2722 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 2722 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge\"]> was visible after 57 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge\"]> was visible after 57 milliseconds.",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 10866
+						},
+						"Então estabelecido a comunicação paciente médico será realizada a consulta": {
+							"time": "24.82",
+							"assertions": [
+								{
+									"message": "Element <textarea[name=\"complaint\"]> was visible after 28 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <textarea[name=\"complaint\"]> was visible after 28 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <textarea[name=\"conduct\"]> was visible after 27 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <textarea[name=\"conduct\"]> was visible after 27 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <textarea[name=\"observations\"]> was visible after 33 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <textarea[name=\"observations\"]> was visible after 33 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class*=\"MuiButtonBase-root MuiIconButton-root\"]:nth-child(2)> was visible after 40 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiIconButton-root\"]:nth-child(2)> was visible after 40 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\"]> was visible after 26 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\"]> was visible after 26 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 24 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <button[class*=\"MuiButtonBase-root MuiButton-root MuiButton-contained\"]:nth-child(1)> was visible after 24 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <.MuiButton-containedSizeLarge.MuiButton-sizeLarge> was visible after 90 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.MuiButton-containedSizeLarge.MuiButton-sizeLarge> was visible after 90 milliseconds.",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 24824
+						}
+					},
+					"timeMs": 24824
+				}
+			},
+			"errmessages": [],
+			"testsCount": 3,
+			"skippedCount": 0,
+			"failedCount": 0,
+			"errorsCount": 0,
+			"passedCount": 38,
+			"group": "",
+			"modulePath": "C:\\dasa\\livia_gui_automation_test\\tests\\001_agendamentoPaciente.test.js",
+			"tests": 3,
+			"failures": 0,
+			"errors": 0
+		}
+	}
+}

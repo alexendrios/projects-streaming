@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ex004.elements"
+    errors="1" failures="0" hostname="" id="" package="ex004.elements" skipped="0"
+    tests="1" time="2.885" timestamp="">
+  
+    <testcase name="demo Test" classname="ex004.elements" time="2.885" assertions="0">
+    <error message="Error while running &#34;waitForElementVisible&#34; command: &#34;Error: Provided locating strategy &#34;button[name=&#34;et_builder_submit_button&#34;]&#34; is not supported for .waitForElementVisible(). It must be one of the following: id, css selector, link text, partial link text, tag name, xpath.
+&#34;" type="error"><![CDATA[
+    Error
+    at Object.demo Test (C:\dasa\demo\tests\ex004.elements.js:5:10)
+    at Context.call (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\testcase.js:53:31)
+    at Runnable.__runFn (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:376:80)
+    at Runnable.run (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    at C:\dasa\demo\node_modules\nightwatch\lib\testsuite\index.js:376:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (C:\dasa\demo\node_modules\nightwatch\lib\runner\test-runners\default.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Error while running &#34;waitForElementVisible&#34; command: &#34;Error: Provided locating strategy &#34;button[name=&#34;et_builder_submit_button&#34;]&#34; is not supported for .waitForElementVisible(). It must be one of the following: id, css selector, link text, partial link text, tag name, xpath.
+  &#34;
+       at Object.demo Test (C:\dasa\demo\tests\ex004.elements.js:5:10)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

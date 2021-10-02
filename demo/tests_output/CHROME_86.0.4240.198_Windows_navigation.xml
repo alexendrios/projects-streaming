@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="navigation"
+    errors="0" failures="0" hostname="" id="" package="navigation" skipped="0"
+    tests="1" time="4.543" timestamp="">
+  
+    <testcase name="Should naviagte by default URL" classname="navigation" time="4.543" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Error while running &#34;waitForElementVisible&#34; command: &#34;Error: Provided locating strategy &#34;button[name=&#34;et_builder_submit_button&#34;]&#34; is not supported for .waitForElementVisible(). It must be one of the following: id, css selector, link text, partial link text, tag name, xpath.
+  &#34;
+       at Object.demo Test (C:\dasa\demo\tests\ex004.elements.js:5:10)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

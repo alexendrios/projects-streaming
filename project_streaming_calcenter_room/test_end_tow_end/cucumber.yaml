@@ -1,0 +1,21 @@
+---
+# Qunado utilizar o allure, para visualizar o relatório localmente
+# execute dentro da pasta logs: "allure serve allure_report"
+
+default: -p chrome -p ambiente -p html_report -p json_report -p publish
+
+ci: -p allure -p json_report -p chrome_headless # quando houver integração com jenkis
+html_report: --format progress --format html --out=log/report/features.html
+json_report: --format progress --format json --out=log/report/report.json
+#publish: --publish 
+publish: --publish-quiet 
+
+
+chrome: BROWSERS=chrome
+firefox: BROWSERS=firefox
+chrome_headless: BROWSERS=chrome_headless
+firefox_headless: BROWSERS=firefox_headless
+
+# Define em qual ambiente irá rodar
+ambiente: AMBIENTE=homologa
+

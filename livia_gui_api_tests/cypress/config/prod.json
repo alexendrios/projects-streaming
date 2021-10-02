@@ -1,0 +1,21 @@
+{
+    "env": {
+        "url": "",
+        "cpf_med": "",
+        "cpf_op": "",
+        "cpf_sem_cad": "",
+        "senha": "",
+        "senha_incorreta": "",
+        "nome_logado_med": "",
+        "nome_logado_op": "",
+        "email": "",
+        "senha_email":"",
+        "db": {
+            "user": "",
+            "password": "",
+            "host": "",
+            "port": "",
+            "database": ""
+          }
+    }
+    }

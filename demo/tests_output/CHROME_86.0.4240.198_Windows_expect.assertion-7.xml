@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="expect.assertion-7"
+    errors="0" failures="1" hostname="" id="" package="expect.assertion-7" skipped="0"
+    tests="4" time="9.442" timestamp="">
+  
+    <testcase name="Assert Library demo tests" classname="expect.assertion-7" time="4.070" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Should assert form field value" classname="expect.assertion-7" time="0.2340" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should assert current url" classname="expect.assertion-7" time="0.02200" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should assert title of current page" classname="expect.assertion-7" time="5.116" assertions="1">  <failure message="Testing if the page title equals &#39;Filling out Forms - Ultimate QA&#39; in 5000ms - expected &#34;is &#39;Filling out Forms - Ultimate QA&#39;&#34; but got: &#34;Filling Out Forms - Ultimate QA&#34; (5109ms)">    at Object.Should assert title of current page (C:\dasa\demo\tests\expect.assertion-7.js:19:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

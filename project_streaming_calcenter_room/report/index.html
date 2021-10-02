@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container" id="nav-container">
+
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="./img/logo/logo.png" alt="Test Report"> Test Report
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#">General</a>
+            <a class="nav-item nav-link" id="services-menu" href="#">General Analysis</a>
+            <a class="nav-item nav-link" id="team-menu" href="#">Behavior</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    
+    <div class="container-fluid">
+      <!-- slider -->
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+      
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+          <li data-target="#mainSlider" data-slide-to="3"></li>
+          <li data-target="#mainSlider" data-slide-to="4"></li>
+          <li data-target="#mainSlider" data-slide-to="5"></li>
+          <li data-target="#mainSlider" data-slide-to="6"></li>
+          <li data-target="#mainSlider" data-slide-to="7"></li>
+          <li data-target="#mainSlider" data-slide-to="8"></li>
+          <li data-target="#mainSlider" data-slide-to="9"></li>
+          <li data-target="#mainSlider" data-slide-to="10"></li>
+          <li data-target="#mainSlider" data-slide-to="11"></li>
+          <li data-target="#mainSlider" data-slide-to="12"></li>
+          <li data-target="#mainSlider" data-slide-to="13"></li>
+          <li data-target="#mainSlider" data-slide-to="14"></li>
+          <li data-target="#mainSlider" data-slide-to="15"></li>
+          <li data-target="#mainSlider" data-slide-to="16"></li>
+          <li data-target="#mainSlider" data-slide-to="17"></li>
+          <li data-target="#mainSlider" data-slide-to="18"></li>
+          <li data-target="#mainSlider" data-slide-to="19"></li>
+          <li data-target="#mainSlider" data-slide-to="20"></li>
+          <li data-target="#mainSlider" data-slide-to="21"></li>
+          <li data-target="#mainSlider" data-slide-to="22"></li>
+          <li data-target="#mainSlider" data-slide-to="23"></li>
+          <li data-target="#mainSlider" data-slide-to="24"></li>
+          <li data-target="#mainSlider" data-slide-to="25"></li>
+        </ol>
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="./img/rtc/Test Result Overview.png" class="d-block w-100" >
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/testRtcGenerale.png" class="d-block w-100" >  
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videoprobe.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videochanel.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videobyprobe.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videoprobejtter.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videochaneljtter.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videobyprobejtter.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videoprobeloss.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videochanelloss.png" class="d-block w-100""> 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videobyprobeloss.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videoprobepacote.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videochanelpacote.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/videobyprobepacote.png" class="d-block w-100"> 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audioprobe.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiochanel.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiobyprobe.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audioprobejtter.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiochaneljtter.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiobyprobejtter.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audioprobeloss.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiochanelloss.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiobyprobeloss.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audioprobepacote.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiochanelpacote.png" class="d-block w-100" > 
+          </div>
+          <div class="carousel-item">
+            <img src="./img/rtc/audiobyprobepacote.png" class="d-block w-100" > 
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      <!-- Metrics -->
+      <div id="about-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-12"> 
+                <h3 class="main-title">Straming Test Using TestRtc Tool</h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="img/logo/report.png" alt="Report TestRTC">
+              </div>
+              <div>
+                <h3 class="about-title">Metrics<</h3>
+                <ul>
+                  <li>Quality Score</li>
+                  <pre>
+        Scoring looks at different media-related metrics. 
+        It specifically checks the bitrate, resolution, and delay, taking into consideration their values and stability over time. 
+        The quality score calculation looks at both audio and video.
+        That depends a lot on your scenario. Since there is a large variety of use cases, we decided not to go on a static 1-5 score values. 
+        This would give the wrong impression. This is why our scale gives a value of 0-10.
+        The way to use quality score values is by looking at the values across tests and monitor runs. 
+        The higher the score – the better the metrics. 
+        If you run a monitor for a long period of time, you can see how its media quality behaves over time by checking the quality score.
+        If you run a stress test, you can see how the quality score is affected as you add more and more probes to the test runs.
+        
+                  </pre>
+                  <li>Bitrate (Kbits)</li>
+                  <pre>
+        For audio (Opus) we consider 40 kbps as optimal and for video 1.5 Mbps as a optimum. 
+        That said, there are no optimal values besides the one you consider as optimal.  
+        Variation in bitrate during the course of the test inversely affects the scoring. 
+        The more stable the bitrate the better the score will be.                          
+                  </pre>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Analy\es -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="main-title">Understanding the data</h3>
+            </div>
+            <div class="col-12">
+              <p>Looking at the overall streaming test results</p>
+              <pre>
+                *************************************************
+                Data regarding the first ten records
+                Number of probes used in the Stress test: 100
+                *************************************************
+              </pre>
+            </div>
+            <div class="col-12">
+              <table class="table table-hover">
+                <thead>
+                  <th></th>
+                  <th>Mean:</th>
+                  <th>Median:</th>
+                  <th>Frequency:</th>
+                  <th>Min:</th>
+                  <th>Max:</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Score</th>
+                        <td>8.049</td>
+                        <td>8.1</td>
+                        <td>7.9</td>
+                        <td>6.5</td>
+                        <td>8.8</td>
+                    </tr>
+                    <tr>
+                      <th>Video Packets In </th>
+                      <td>14955.42</td>
+                      <td>15167.0</td>
+                      <td>15144</td>
+                      <td>11955</td>
+                      <td>17445</td>
+                  </tr>
+                  <tr>
+                      <th>Video Packets Out</th>
+                      <td>27877.07</td>
+                      <td>27753.5</td>
+                      <td>22972</td>
+                      <td>22972</td>
+                      <td>36628</td>
+                  </tr>
+                  <tr>
+                      <th>Video Packets Loss In</th>
+                      <td>0.2</td>
+                      <td>0.0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>3</td>
+                  </tr>
+                  <tr>
+                      <th>Video Packets Loss Out</th>
+                      <td>1.3666999999999998</td>
+                      <td>1.0</td>
+                      <td>0.0</td>
+                      <td>0.0</td>
+                      <td>5.33</td>
+                  </tr>
+                  <tr>
+                      <th>Video Bitrate In</th>
+                      <td>1076.3791999999999</td>
+                      <td>1079.275</td>
+                      <td>1133.57</td>
+                      <td>873.49</td>
+                      <td>1321.57</td>
+                  </tr>
+                  <tr>
+                      <th>Video Bitrate Out</th>
+                      <td>1832.9326000000003</td>
+                      <td>1838.815</td>
+                      <td>1460.31</td>
+                      <td>1460.31</td>
+                      <td>2526.88</td>
+                  </tr>
+                  <tr>
+                      <th>Video Bitrate In Max</th>
+                      <td>2665.0190999999995</td>
+                      <td>2557.955</td>
+                      <td>101.56</td>
+                      <td>101.56</td>
+                      <td>4716.51</td>
+                  </tr>
+                  <tr>
+                      <th>Video Bitrate Out Max</th>
+                      <td>1762.4308000000012</td>
+                      <td>929.9300000000001</td>
+                      <td>227.13</td>
+                      <td>227.13</td>
+                      <td>4795.37</td>
+                  </tr>
+                  <tr>
+                      <th>Video Bitrate In Min</th>
+                      <td>176.35629999999998</td>
+                      <td>165.77499999999998</td>
+                      <td>0.0</td>
+                      <td>0.0</td>
+                      <td>503.8</td>
+                  </tr>
+                  <tr>
+                      <th>Video Bitrate Out Min</th>
+                      <td>179.74230000000003</td>
+                      <td>104.015</td>
+                      <td>0.0</td>
+                      <td>0.0</td>
+                      <td>626.83</td>
+                  </tr>
+                  <tr>
+                      <th>Video Jitter In</th>
+                      <td>3687.633700000001</td>
+                      <td>3642.0699999999997</td>
+                      <td>569.67</td>
+                      <td>569.67</td>
+                      <td>5313.53</td>
+                  </tr>
+                  <tr>
+                      <th>Video Jitter Out</th>
+                      <td>9.908999999999999</td>
+                      <td>9.559999999999999</td>
+                      <td>3.35</td>
+                      <td>2.93</td>
+                      <td>22.95</td>
+                  </tr>
+                  <tr>
+                      <th>Video Jitter In Max</th>
+                      <td>11828.18</td>
+                      <td>11501.0</td>
+                      <td>13200.0</td>
+                      <td>786.0</td>
+                      <td>18759.0</td>
+                  </tr>
+                  <tr>
+                      <th>Video Jitter Out Max</th>
+                      <td>33.004400000000004</td>
+                      <td>31.325000000000003</td>
+                      <td>14.59</td>
+                      <td>11.61</td>
+                      <td>86.02</td>
+                  </tr>
+                  <tr>
+                      <th>Video Roundtrip</th>
+                      <td>22.287999999999993</td>
+                      <td>22.225</td>
+                      <td>22.32</td>
+                      <td>21.41</td>
+                      <td>25.2</td>
+                  </tr>
+                  <tr>
+                      <th>Video Roundtrip Max</th>
+                      <td>39.75</td>
+                      <td>35.0</td>
+                      <td>32</td>
+                      <td>28</td>
+                      <td>288</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Packets In</th>
+                      <td>5140.1</td>
+                      <td>5187.0</td>
+                      <td>5095</td>
+                      <td>3054</td>
+                      <td>5620</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Packets Out</th>
+                      <td>5213.66</td>
+                      <td>5271.0</td>
+                      <td>5224</td>
+                      <td>3100</td>
+                      <td>5380</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Packets Loss In</th>
+                      <td>0.02</td>
+                      <td>0.0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Packets Loss Out</th>
+                      <td>0.0</td>
+                      <td>0.0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Bitrate In </th>
+                      <td>12.2159</td>
+                      <td>12.29</td>
+                      <td>12.42</td>
+                      <td>5.39</td>
+                      <td>17.92</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Bitrate Out</th>
+                      <td>12.2192</td>
+                      <td>12.38</td>
+                      <td>12.36</td>
+                      <td>5.37</td>
+                      <td>12.75</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Bitrate In Max</th>
+                      <td>17.0631</td>
+                      <td>17.049999999999997</td>
+                      <td>16.88</td>
+                      <td>13.82</td>
+                      <td>21.58</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Bitrate Out Max</th>
+                      <td>17.089700000000004</td>
+                      <td>17.07</td>
+                      <td>16.91</td>
+                      <td>15.59</td>
+                      <td>18.35</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Bitrate In Min</th>
+                      <td>1.0187</td>
+                      <td>0.45999999999999996</td>
+                      <td>0.27</td>
+                      <td>0.25</td>
+                      <td>3.06</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Bitrate Out Min</th>
+                      <td>0.7063000000000001</td>
+                      <td>0.335</td>
+                      <td>0.27</td>
+                      <td>0.25</td>
+                      <td>2.7</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Jitter In</th>
+                      <td>3.4027999999999996</td>
+                      <td>3.44</td>
+                      <td>3.4</td>
+                      <td>1.17</td>
+                      <td>3.91</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Jitter Out</th>
+                      <td>2.894599999999999</td>
+                      <td>3.045</td>
+                      <td>2.97</td>
+                      <td>0.0</td>
+                      <td>5.79</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Jitter In Max</th>
+                      <td>6.95</td>
+                      <td>6.5</td>
+                      <td>6</td>
+                      <td>2</td>
+                      <td>22</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Jitter Out Max</th>
+                      <td>5.23</td>
+                      <td>5.74</td>
+                      <td>1.48</td>
+                      <td>0.0</td>
+                      <td>12.04</td>
+                  </tr>
+                  <tr>
+                      <th>Audio Roundtrip</th>
+                      <td>20.85600000000001</td>
+                      <td>22.035</td>
+                      <td>20.0</td>
+                      <td>0.0</td>
+                      <td>26.0</td>
+                  </tr>
+                  <tr>
+                      <th>Audioo Roundtrip Max</th>
+                      <td>31.95</td>
+                      <td>32.0</td>
+                      <td>20</td>
+                      <td>0</td>
+                      <td>219</td>
+                  </tr>
+                </tbody>
+            </table>
+            </div>
+         </div>
+        </div>
+      </div>
+
+       <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Reproductive behavior and other data</h3>
+            </div>
+            <div class="col-12">
+              <h3>Score</h3>
+              <figure>
+                <img src="./img/analyze/amalyzeVideo.png" alt="Score analysis in relation to video input packages">
+                <figcaption>Score analysis in relation to video input packages</figcaption>
+              </figure>
+            </div>
+            <div class="col-12">
+              <figure>
+                <img src="./img/analyze/amalyzeVideopckt.png" alt="Score analysis in relation to video output packages">
+                <figcaption>Score analysis in relation to video output packages"</figcaption>
+              </figure>
+            </div>
+            <div class="col-12">
+              <figure>
+                <img src="./img/analyze/amalyzescoreprobes.png" alt="Score analysis in relation to probes">
+                <figcaption>Score analysis in relation to probes</figcaption>
+              </figure>
+            </div>
+            <div class="col-12">
+              <figure>
+                <img src="./img/analyze/amalyzeaudio.png" alt="Score analysis in relation to audio input packages">
+                <figcaption>Score analysis in relation to audio input packages</figcaption>
+              </figure>
+            </div>
+            <div class="col-12">
+              <figure>
+                <img src="./img/analyze/amalyzeaudiopckt.png" alt="Score analysis in relation to audio output packages">
+                <figcaption>Score analysis in relation to audio output packages</figcaption>
+              </figure>
+            </div>
+            <div class="col-12">
+              <h3>Packages</h3>    
+              <figure>
+                <img src="./img/analyze/amalyzeVideopcktinout.png" alt="Analysis of input packages vs. output packages">
+                <figcaption>Analysis of input packages vs. output packagess</figcaption>
+              </figure>
+            </div>
+            <div class="col-12">
+              <figure>
+                <img src="./img/analyze/amalyzeAudiopcktinout.png" alt="Analysis of input packages vs. output packages">
+                <figcaption>Analysis of input packages vs. output packages</figcaption>
+              </figure>
+            </div>       
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Learn more about data behavior</h3>
+            </div>
+            <div class="col-12">
+              <a href="./Analise_dados_50_rom_100_probe.html" class="main-btn">Another view of the report</a>
+            </div>
+        </div>
+      </div>
+     
+  </main>
+  <!-- Rodapé -->
+  <footer>
+    
+  </footer>
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
